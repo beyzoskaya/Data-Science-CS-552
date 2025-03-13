@@ -1,26 +1,26 @@
-DataFrame.__add__	Get Addition of DataFrame and other, column-wise.
-DataFrame.add	Get Addition of dataframe and other, element-wise (binary operator add).
-DataFrame.sub	Get Subtraction of dataframe and other, element-wise (binary operator sub).
-DataFrame.mul	Get Multiplication of dataframe and other, element-wise (binary operator mul).
-DataFrame.div	Get Floating division of dataframe and other, element-wise (binary operator truediv).
-DataFrame.truediv	Get Floating division of dataframe and other, element-wise (binary operator truediv).
-DataFrame.floordiv	Get Integer division of dataframe and other, element-wise (binary operator floordiv).
-DataFrame.mod	Get Modulo of dataframe and other, element-wise (binary operator mod).
-DataFrame.pow	Get Exponential power of dataframe and other, element-wise (binary operator pow).
-DataFrame.dot	Compute the matrix multiplication between the DataFrame and other.
-DataFrame.radd	Get Addition of dataframe and other, element-wise (binary operator radd).
-DataFrame.rsub	Get Subtraction of dataframe and other, element-wise (binary operator rsub).
-DataFrame.rmul	Get Multiplication of dataframe and other, element-wise (binary operator rmul).
-DataFrame.rdiv	Get Floating division of dataframe and other, element-wise (binary operator rtruediv).
-DataFrame.rtruediv	Get Floating division of dataframe and other, element-wise (binary operator rtruediv).
-DataFrame.rfloordiv	Get Integer division of dataframe and other, element-wise (binary operator rfloordiv).
-DataFrame.rmod	Get Modulo of dataframe and other, element-wise (binary operator rmod).
-DataFrame.rpow	Get Exponential power of dataframe and other, element-wise (binary operator rpow).
-DataFrame.lt	Get Less than of dataframe and other, element-wise (binary operator lt).
-DataFrame.gt	Get Greater than of dataframe and other, element-wise (binary operator gt).
-DataFrame.le	Get Less than or equal to of dataframe and other, element-wise (binary operator le).
-DataFrame.ge	Get Greater than or equal to of dataframe and other, element-wise (binary operator ge).
-DataFrame.ne	Get Not equal to of dataframe and other, element-wise (binary operator ne).
-DataFrame.eq	Get Equal to of dataframe and other, element-wise (binary operator eq).
-DataFrame.combine	Perform column-wise combine with another DataFrame.
-DataFrame.combine_first	Update null elements with value in the same location in other.
+DataFrame.__add__(other)	Get Addition of DataFrame and other, column-wise.
+DataFrame.add(other[, axis, level, fill_value])	Get Addition of dataframe and other, element-wise (binary operator add).
+DataFrame.sub(other[, axis, level, fill_value])	Get Subtraction of dataframe and other, element-wise (binary operator sub).
+DataFrame.mul(other[, axis, level, fill_value])	Get Multiplication of dataframe and other, element-wise (binary operator mul).
+DataFrame.div(other[, axis, level, fill_value])	Get Floating division of dataframe and other, element-wise (binary operator truediv).
+DataFrame.truediv(other[, axis, level, ...])	Get Floating division of dataframe and other, element-wise (binary operator truediv).
+DataFrame.floordiv(other[, axis, level, ...])	Get Integer division of dataframe and other, element-wise (binary operator floordiv).
+DataFrame.mod(other[, axis, level, fill_value])	Get Modulo of dataframe and other, element-wise (binary operator mod).
+DataFrame.pow(other[, axis, level, fill_value])	Get Exponential power of dataframe and other, element-wise (binary operator pow).
+DataFrame.dot(other)	Compute the matrix multiplication between the DataFrame and other.
+DataFrame.radd(other[, axis, level, fill_value])	Get Addition of dataframe and other, element-wise (binary operator radd).
+DataFrame.rsub(other[, axis, level, fill_value])	Get Subtraction of dataframe and other, element-wise (binary operator rsub).
+DataFrame.rmul(other[, axis, level, fill_value])	Get Multiplication of dataframe and other, element-wise (binary operator rmul).
+DataFrame.rdiv(other[, axis, level, fill_value])	Get Floating division of dataframe and other, element-wise (binary operator rtruediv).
+DataFrame.rtruediv(other[, axis, level, ...])	Get Floating division of dataframe and other, element-wise (binary operator rtruediv).
+DataFrame.rfloordiv(other[, axis, level, ...])	Get Integer division of dataframe and other, element-wise (binary operator rfloordiv).
+DataFrame.rmod(other[, axis, level, fill_value])	Get Modulo of dataframe and other, element-wise (binary operator rmod).
+DataFrame.rpow(other[, axis, level, fill_value])	Get Exponential power of dataframe and other, element-wise (binary operator rpow).
+DataFrame.lt(other[, axis, level])	Get Less than of dataframe and other, element-wise (binary operator lt).
+DataFrame.gt(other[, axis, level])	Get Greater than of dataframe and other, element-wise (binary operator gt).
+DataFrame.le(other[, axis, level])	Get Less than or equal to of dataframe and other, element-wise (binary operator le).
+DataFrame.ge(other[, axis, level])	Get Greater than or equal to of dataframe and other, element-wise (binary operator ge).
+DataFrame.ne(other[, axis, level])	Get Not equal to of dataframe and other, element-wise (binary operator ne).
+DataFrame.eq(other[, axis, level])	Get Equal to of dataframe and other, element-wise (binary operator eq).
+DataFrame.combine(other, func[, fill_value, ...])	Perform column-wise combine with another DataFrame.
+DataFrame.combine_first(other)	Update null elements with value in the same location in other.
